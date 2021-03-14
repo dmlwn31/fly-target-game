@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Target Game</title>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <link rel="stylesheet" href="/target/css/style.css">
+
+  <header>
+    <div class="tit">
+      <h1>
+        <a href="#">
+          파리 잡기 <span> Game!</span>
+        </a>
+      </h1>
+    </div>
+  </header>
+  <div class="scoreBox">
+    score : <span id="score">0</span>
+  </div>
+  <div class="contaner">
+    <div class="panel">
+      <div id="flyImg">
+        <img src="/target/img/pari.png" alt="" id="target1" />
+        <img src="/target/img/paridie.png" alt="" id="target2" />
+      </div>
+    </div>
+    <div class="item">
+      <ul class="itemBox">
+        <h2>Item</h2>
+        <li id="item01"><img src="/target/img/item01.jpg" alt=""></li>
+        <li><img src="/target/img/item02.jpg" alt="" id="item02"></li>
+        <li id="item03"><img src="/target/img/item03.jpg" alt=""></li>
+        <li id="item04"><img src="/target/img/item04.jpg" alt=""></li>
+      </ul>
+    </div>
+  </div>
+  <div class="gameStart">
+    <button id="start">Game Start</button>
+  </div>
+  <footer>
+    <div class="ending">
+      <p>cpyroght&copy; 2021 dmlwn31.All rights reserced</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="/target/js/target.js"></script>
+</body>
+
+</html>
