@@ -66,9 +66,38 @@ $(function () {
   })
 });
 
+
+// item click event
 $(function () {
   $('#item02').click(function () {
-    $('.panel').css('cursor', 'url(./target/img/itemcursor02.png');
-    consolelog()
+    $('.panel').css('cursor', 'url(/target/img/itemcursor02.png),auto');
   });
 });
+
+$(function () {
+  $('#item01').click(function () {
+    $('.panel').css('cursor', 'url(/target/img/itemcursor01.png),auto');
+  });
+});
+
+$(function () {
+  $('#item03').click(function () {
+    $('.panel').css('cursor', 'url(/target/img/itemcursor03.png),auto');
+  });
+});
+
+$(function () {
+  $('#item04').click(function () {
+    $('.panel').css('cursor', 'url(/target/img/itemcursor04.png),auto');
+  });
+});
+
+
+// 마우스 업다운
+
+$(".panel").mouseup(function () {
+  $(this).css('cursor', 'url(/target/img/itemcursor01.png),auto');
+})
+  .mousedown(function () {
+    $(this).css('cursor', 'url(/target/img/item01.png),auto');
+  })

@@ -23,8 +23,10 @@ header{width:100%; height:auto; background:#222; padding:0; margin:0;}
 
 .scoreBox{font-size:50px; color:#fff; font-family:'Ranchers'; margin-left:20px;}
 
-.panel {width: 800px;height: 600px;position: relative;  background-image:url('/target/img/background.jpg'); border:2px solid #fff; cursor: url(/target/img/itemcursor01.png), auto !important;}
-.panel:active{cursor:url(/target/img/item01.png), auto !important;}
+.panel {width: 800px;height: 600px;position: relative;  background-image:url('../img/background.jpg'); border:2px solid #fff; cursor: url(../img/itemcursor01.png), auto;}
+
+.panel:active{cursor:url(/target/img/item01.png), auto;}
+
 .panel #flyImg{position: absolute; left: 100px; top: 100px;}
 .panel #flyImg img{position:absolute;}
 .panel #flyImg #target1{z-index: 999;}
