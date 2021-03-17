@@ -12,8 +12,8 @@ const $target = document.querySelector('#flyImg');
 //console.log(abc);
 
 function moveTarget() {
-  let x = Math.floor(Math.random() * 800);
-  let y = Math.floor(Math.random() * 600);
+  let x = Math.floor(Math.random() * 600);
+  let y = Math.floor(Math.random() * 500);
 
   $target.style.left = x + 'px';
   $target.style.top = y + 'px';
@@ -33,7 +33,7 @@ function endGame() {
   setTimeout(function () {
     playing = false;
     clearInterval(timer);
-    alert("당신은 진정한 파리 헌터에요!");
+    alert("훌륭해요 당신은 대단한 파리 헌터에요!");
   }, 15000);
 }
 
@@ -68,6 +68,7 @@ $(function () {
 
 $(function () {
   $('#item02').click(function () {
-    $('.panel').css('cursor', 'url(/target/img/itemcursor02.png');
+    $('.panel').css('cursor', 'url(./target/img/itemcursor02.png');
+    consolelog()
   });
 });

@@ -5,6 +5,13 @@
 body{width:100%; height:auto; padding:0; margin:0; font-family:'Ranchers'; font-family: 'Black And White Picture'; background:#333; }
 a{text-decoration:none; color:#000;}
 ul{list-style: none;}
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
 /* header style */
 header{width:100%; height:auto; background:#222; padding:0; margin:0;}
 .tit h1{margin:0; font-size:70px; margin-left:50px;}
