@@ -32,7 +32,7 @@ header{width:100%; height:auto; background:#222; padding:0; margin:0;}
 .panel #flyImg #target1{z-index: 999;}
 .panel #flyImg #target2{display:none;}
 
-.item{width:30%; height:auto; position:absolute; left:780px; top:150px;}
+.item{width:30%; height:auto; position:static; left:780px; top:150px;}
 .item h2{color:#fff; font-family:'Ranchers'; margin:0; font-size:50px; color:yellow; text-align: center;}
 .item .itemBox li:hover img{width:400px;}
 .item .itemBox li img{border:3px solid #fff;}

@@ -1,0 +1,10 @@
+@media screen and (max-width:500px){
+  header{width:100%; height:auto;}
+  header .tit{width:100%; height:auto; font-size:20px;}
+  .tit h1{font-size:40px; margin-left:10px;}
+  .tit h1 a span{font-size:40px;}
+.item{display:none;}
+.panel{width:500px; height:350px;}
+.gameStart {z-index: 999;}
+footer{display:none;}
+}
